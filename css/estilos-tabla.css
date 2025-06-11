@@ -1,0 +1,138 @@
+/* Estilos personalizados para la tabla responsive */
+        .responsive-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .responsive-table thead tr {
+            background-color: #3b82f6;
+            color: #ffffff;
+            text-align: left;
+        }
+        
+        .responsive-table th,
+        .responsive-table td {
+            padding: 12px 15px;
+        }
+        
+        .responsive-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+        
+        .responsive-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        
+        .responsive-table tbody tr:last-of-type {
+            border-bottom: 2px solid #3b82f6;
+        }
+        
+        .responsive-table tbody tr:hover {
+            background-color: #e0e7ff;
+            cursor: pointer;
+        }
+        
+        .download-btn {
+            background-color: #3b82f6;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .download-btn:hover {
+            background-color: #2563eb;
+        }
+        
+        /* Estilos para móviles */
+        @media screen and (max-width: 768px) {
+            .responsive-table {
+                border: 0;
+            }
+            
+            .responsive-table thead {
+                display: none;
+            }
+            
+            .responsive-table tr {
+                margin-bottom: 10px;
+                display: block;
+                border-bottom: 2px solid #ddd;
+            }
+            
+            .responsive-table td {
+                display: block;
+                text-align: right;
+                font-size: 0.8em;
+                border-bottom: 1px dotted #ccc;
+            }
+            
+            .responsive-table td:before {
+                content: attr(data-label);
+                float: left;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            
+            .responsive-table td:last-child {
+                border-bottom: 0;
+            }
+        }
+        
+        /* Estilos para el logo y navegación */
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        
+        .nav-link {
+            position: relative;
+            padding: 8px 0;
+            margin: 0 15px;
+        }
+        
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #3b82f6;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover:after {
+            width: 100%;
+        }
+        
+        .active-nav:after {
+            width: 100%;
+
+        }
+
+        /* Estilos para el loading */
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }

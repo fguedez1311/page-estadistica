@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicaciones de  SAU</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/estilos-tabla.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header con logo y navegación -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="logo-container">
+                <img src="img/logo1.png" alt="Logo" class="logo-ine">
+                
+            </div>
+            
+            <nav class="hidden md:flex">
+                <a href="#" class="nav-link active-nav text-blue-600 font-medium" id="home-link">Home</a>
+                <a href="#" class="nav-link text-gray-700 hover:text-blue-600 font-medium" id="delta-link">Delta Amacuro</a>
+                <a href="#" class="nav-link text-gray-700 hover:text-blue-600 font-medium" id="municipio-link">Municipio</a>
+                <a href="#" class="nav-link text-gray-700 hover:text-blue-600 font-medium" id="parroquia-link">Parroquia</a>
+                <a href="#" class="nav-link text-gray-700 hover:text-blue-600 font-medium" id="nomenclador-link">Nomenclador</a>
+            </nav>
+            
+            <button class="md:hidden text-gray-700" id="mobile-menu-button">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        
+        <!-- Menú móvil -->
+        <div class="md:hidden hidden bg-white py-2 px-4 shadow-lg" id="mobile-menu">
+            <a href="#" class="block py-2 text-blue-600 font-medium" id="mobile-home-link">Home</a>
+            <a href="#" class="block py-2 text-gray-700 hover:text-blue-600" id="mobile-delta-link">Delta Amacuro</a>
+            <a href="#" class="block py-2 text-gray-700 hover:text-blue-600" id="mobile-municipio-link">Municipio</a>
+            <a href="#" class="block py-2 text-gray-700 hover:text-blue-600" id="mobile-parroquia-link">Parroquia</a>
+            <a href="#" class="block py-2 text-gray-700 hover:text-blue-600" id="mobile-nomenclador-link">Nomenclador</a>
+        </div>
+    </header>
+    
+    <!-- Contenido principal -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Sección Home (visible por defecto) -->
+        <section id="home-section" class="text-center">
+            <h2 class="text-3xl font-bold text-blue-600 mb-6">Bienvenido al Sistema  Estadístico del INE Delta Amacuro</h2>
+            <p class="text-gray-700 mb-8 max-w-2xl mx-auto">
+                Este sistema le permite acceder a información estadística detallada sobre diversos indicadores de población económicos y sociales y croquis por estado municipio y parroquia. 
+                Explore nuestras secciones para encontrar los datos que necesita.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <i class="fas fa-chart-line text-blue-500 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Estadísticas del estado Delta Amacuro y sus croquis</h3>
+                    <p class="text-gray-600">Datos agregados a nivel del estado Delta Amacuro.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <i class="fas fa-city text-blue-500 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Por Municipio</h3>
+                    <p class="text-gray-600">Estadísticas  desagregada por municipio y sus croquis .</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <i class="fas fa-map-marked-alt text-blue-500 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Por Parroquia</h3>
+                    <p class="text-gray-600">Estadísticas de parroquia y sus croquis.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección Estadísticas Delta (oculta inicialmente) -->
+        <section id="delta-section" class="hidden">
+            <h2 class="text-2xl font-bold text-blue-600 mb-6">Estadísticas Delta</h2>
+            <p class="text-gray-700 mb-6">
+                En esta sección encontrará publicaciones estadísticas agregadas a nivel regional. 
+                Seleccione cualquier documento para descargarlo en el formato disponible.
+            </p>
+            
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <div class="mb-4">
+                    <div class="relative w-64">
+                        <input type="text" id="search-input" placeholder="Buscar publicaciones..." 
+                               class="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                    </div>
+                   
+                </div>
+                
+                <div class="overflow-x-auto">
+                    <table class="responsive-table">
+                        <thead>
+                            <tr>
+                                <th>Título</th>
+                                <th>Descripción</th>
+                                <th>Formato</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody id="publications-table-body">
+                            <!-- Los datos se cargarán aquí desde JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="flex justify-between items-center mt-4">
+                    <div class="text-sm text-gray-600" id="results-count">Mostrando 0 resultados</div>
+                    <div class="flex space-x-2">
+                        <button id="prev-page" class="px-4 py-2 border rounded-lg bg-gray-100 hover:bg-gray-200 disabled:opacity-50" disabled>Anterior</button>
+                        <span class="px-4 py-2 text-gray-700" id="page-info">Página 1</span>
+                        <button id="next-page" class="px-4 py-2 border rounded-lg bg-gray-100 hover:bg-gray-200 disabled:opacity-50" disabled>Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección Estadísticas por Municipio -->
+        <section id="municipio-section" class="hidden">
+            <h2 class="text-2xl font-bold text-blue-600 mb-6">Estadísticas por Municipio</h2>
+            <p class="text-gray-700 mb-6">
+                En esta sección podrá filtrar y consultar información estadística desagregada por municipio.
+            </p>
+            
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-4">
+                                     
+                   
+                    <div class="w-full md:w-96">
+                        <label for="municipio-search" class="block text-gray-700 mb-2">Buscar:</label>
+                        <div class="relative">
+                            <input type="text" id="municipio-search" placeholder="Buscar en municipios..." 
+                                   class="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="overflow-x-auto">
+                    <table class="responsive-table">
+                        <thead>
+                            <tr>
+                                <th>Título</th>
+                                <th>Municipio</th>
+                                <th>Descripción</th>
+                                <th>Formato</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody id="municipio-table-body">
+                            <!-- Los datos se cargarán aquí desde JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="flex justify-between items-center mt-4">
+                    <div class="text-sm text-gray-600" id="municipio-results-count">Mostrando 0 resultados</div>
+                    <div class="flex space-x-2">
+                        <button id="municipio-prev-page" class="px-4 py-2 border rounded-lg bg-gray-100 hover:bg-gray-200 disabled:opacity-50" disabled>Anterior</button>
+                        <span class="px-4 py-2 text-gray-700" id="municipio-page-info">Página 1</span>
+                        <button id="municipio-next-page" class="px-4 py-2 border rounded-lg bg-gray-100 hover:bg-gray-200 disabled:opacity-50" disabled>Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección Estadísticas por Parroquia -->
+        <section id="parroquia-section" class="hidden">
+            <h2 class="text-2xl font-bold text-blue-600 mb-6">Estadísticas por Parroquia</h2>
+            <p class="text-gray-700 mb-6">
+                En esta sección podrá filtrar y consultar información estadística desagregada por parroquia.
+            </p>
+            
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-4">
+                    
+                    <div class="w-full md:w-96">
+                        <label for="parroquia-search" class="block text-gray-700 mb-2">Buscar:</label>
+                        <div class="relative">
+                            <input type="text" id="parroquia-search" placeholder="Buscar en parroquias..." 
+                                   class="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="overflow-x-auto">
+                    <table class="responsive-table">
+                        <thead>
+                            <tr>
+                                <th>Título</th>
+                                <th>Parroquia</th>
+                                <th>Municipio</th>
+                                <th>Descripción</th>
+                                <th>Formato</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody id="parroquia-table-body">
+                            <!-- Los datos se cargarán aquí desde JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="flex justify-between items-center mt-4">
+                    <div class="text-sm text-gray-600" id="parroquia-results-count">Mostrando 0 resultados</div>
+                    <div class="flex space-x-2">
+                        <button id="parroquia-prev-page" class="px-4 py-2 border rounded-lg bg-gray-100 hover:bg-gray-200 disabled:opacity-50" disabled>Anterior</button>
+                        <span class="px-4 py-2 text-gray-700" id="parroquia-page-info">Página 1</span>
+                        <button id="parroquia-next-page" class="px-4 py-2 border rounded-lg bg-gray-100 hover:bg-gray-200 disabled:opacity-50" disabled>Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección Nomenclador -->
+        <section id="nomenclador-section" class="hidden">
+            <h2 class="text-2xl font-bold text-blue-600 mb-6">Nomenclador de Comunidades</h2>
+            <p class="text-gray-700 mb-6">
+                En esta sección podrá consultar las comunidades por entidad, municipio y parroquia.
+            </p>
+            
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-4">
+                    <div class="w-full md:w-64">
+                        <label for="entidad-filter" class="block text-gray-700 mb-2">Entidad:</label>
+                        <select id="entidad-filter" class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="10">Delta Amacuro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="w-full md:w-64">
+                        <label for="nomenclador-municipio-filter" class="block text-gray-700 mb-2">Municipio:</label>
+                        <select id="nomenclador-municipio-filter" class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="01">Antonio Díaz</option>
+                            <option value="02">Casacoima</option>
+                            <option value="03">Pedernales</option>
+                            <option value="04">Tucupita</option>
+                        </select>
+                    </div>
+                    
+                    <div class="w-full md:w-64">
+                        <label for="nomenclador-parroquia-filter" class="block text-gray-700 mb-2">Parroquia:</label>
+                        <select id="nomenclador-parroquia-filter" class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="01">Curiapo</option>
+                            <option value="02">Almirante Luis Brión</option>
+                            <option value="03">Francisco Aniceto Lugo</option>
+                            <option value="04">Manuel Renaud</option>
+                            <option value="05">Padre Baral</option>
+                            <option value="06">Santos de Abelgas</option>
+                        </select>
+                    </div>
+                    
+                    <div class="w-full md:w-64">
+                        <button id="buscar-comunidades-btn" class="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg flex items-center justify-center">
+                            <span id="buscar-text">Buscar</span>
+                            <span id="loading-spinner" class="hidden ml-2">
+                                <div class="loading-spinner"></div>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="overflow-x-auto">
+                    <table class="responsive-table">
+                        <thead>
+                            <tr>
+                                <th>Código INE</th>
+                                <th>Nombre de la Comunidad</th>
+                            </tr>
+                        </thead>
+                        <tbody id="comunidades-table-body">
+                            <tr>
+                                <td colspan="2" class="text-center py-4 text-gray-500">Seleccione una parroquia y haga clic en "Buscar" para ver las comunidades</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/publicacion.js"></script>
+</body>
+</html>
