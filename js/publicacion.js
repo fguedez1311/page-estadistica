@@ -1,10 +1,9 @@
 import { traerDatos } from "./file-fetch.js";
 
-const info=await traerDatos();
-console.log(info);
+
 
 // Token de la API (debería manejarse de forma segura en producción)
-const API_TOKEN = 'eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJVU2ZTQ2RXcUlVSndRc2Y2Q1BzeGExM1VrQXl3MkViSGxHX0haT3IzUWNjIn0.eyJleHAiOjE3NDgxNjkzOTcsImlhdCI6MTc0ODA4NjU5NywianRpIjoiZWUyNmFlZTgtNDMwMC00YWNkLWJmZDgtOWNmZmRhOTBmNDUyIiwiaXNzIjoiaHR0cHM6Ly9zYWEuYXBuLmdvYi52ZS9yZWFsbXMvQVBJU0VHRU4iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiNjEzYWJiYzYtZjRkNS00MWYzLWI5MTYtZmE5MzZlZTdkZGI2IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYXBpcyIsInNpZCI6IjI1OGNmZTc0LTFlYjgtNGI5MC1hMTgxLTg5YWE0NGY5NDZjMSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9hcGlzZWdlbi5hcG4uZ29iLnZlIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImFwaS1pbnN0aXR1Y2lvbmVzIiwidW1hX2F1dGhvcml6YXRpb24iLCJhcGktZHB0Il19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IkZyYW5jaXNjbyBHdWVkZXoiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJmZ3VlZGV6byIsImdpdmVuX25hbWUiOiJGcmFuY2lzY28iLCJmYW1pbHlfbmFtZSI6Ikd1ZWRleiIsImVtYWlsIjoiZmd1ZWRlejEzMTFAZ21haWwuY29tIn0.nxq0em_5K2r6m1-geG9ilya4MN11lTu0WAJfdJ9wjIWGiLyLcSHuwxjeDtpYmZTeMN2MoEq9supDdMRJOcZmpQifrzrJ7qSjWN2zoiK9dGLtI-o7-wJShjn-1UNckTuopwHjWdNKjGgCIcf0Nj1y2b7QGTRxQqp_HRW-aOaj5iLb3qkWrmaWbA2kn6MRPbipn37xn_aqXyoGxAdc7ANovOfQKcS5MECnTs9Rw-NBym4ew_QpMEpN46CGXUHdz0MAeYX6mGvwPjEkbWLruDHFMsYd1-qc05WVownTHYEt93pIZ7_s3CuSRUCsHf7Nr2OpjCVMM9kKcY2CfnOVkmjqbw';
+// const API_TOKEN = 'eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJVU2ZTQ2RXcUlVSndRc2Y2Q1BzeGExM1VrQXl3MkViSGxHX0haT3IzUWNjIn0.eyJleHAiOjE3NDgxNjkzOTcsImlhdCI6MTc0ODA4NjU5NywianRpIjoiZWUyNmFlZTgtNDMwMC00YWNkLWJmZDgtOWNmZmRhOTBmNDUyIiwiaXNzIjoiaHR0cHM6Ly9zYWEuYXBuLmdvYi52ZS9yZWFsbXMvQVBJU0VHRU4iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiNjEzYWJiYzYtZjRkNS00MWYzLWI5MTYtZmE5MzZlZTdkZGI2IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYXBpcyIsInNpZCI6IjI1OGNmZTc0LTFlYjgtNGI5MC1hMTgxLTg5YWE0NGY5NDZjMSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9hcGlzZWdlbi5hcG4uZ29iLnZlIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImFwaS1pbnN0aXR1Y2lvbmVzIiwidW1hX2F1dGhvcml6YXRpb24iLCJhcGktZHB0Il19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IkZyYW5jaXNjbyBHdWVkZXoiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJmZ3VlZGV6byIsImdpdmVuX25hbWUiOiJGcmFuY2lzY28iLCJmYW1pbHlfbmFtZSI6Ikd1ZWRleiIsImVtYWlsIjoiZmd1ZWRlejEzMTFAZ21haWwuY29tIn0.nxq0em_5K2r6m1-geG9ilya4MN11lTu0WAJfdJ9wjIWGiLyLcSHuwxjeDtpYmZTeMN2MoEq9supDdMRJOcZmpQifrzrJ7qSjWN2zoiK9dGLtI-o7-wJShjn-1UNckTuopwHjWdNKjGgCIcf0Nj1y2b7QGTRxQqp_HRW-aOaj5iLb3qkWrmaWbA2kn6MRPbipn37xn_aqXyoGxAdc7ANovOfQKcS5MECnTs9Rw-NBym4ew_QpMEpN46CGXUHdz0MAeYX6mGvwPjEkbWLruDHFMsYd1-qc05WVownTHYEt93pIZ7_s3CuSRUCsHf7Nr2OpjCVMM9kKcY2CfnOVkmjqbw';
 
 // Datos de ejemplo en formato JSON para Estadísticas Delta
 const publicationsData = [
@@ -58,7 +57,7 @@ const publicationsData = [
     }
 ];
 
-// Datos de ejemplo para Estadísticas por Municipio
+// // Datos de ejemplo para Estadísticas por Municipio
 const municipioData = [
     {
         "title": "Empleo en Antonio Díaz",
@@ -105,154 +104,157 @@ const municipioData = [
 ];
 
 // Datos de ejemplo para Estadísticas por Parroquia
-const parroquiaData = [
-    {
-        "title": "Empleo en Curiapo",
-        "parroquia": "CURIAPO",
-        "municipio": "ANTONIO DIAZ",
-        "description": "Estadísticas de empleo en la parroquia Curiapo",
-        "format": "xls",
-        "url": "https://example.com/reports/empleo-curiapo.xls"
-    },
-    {
-        "title": "Educación en San José",
-        "parroquia": "SAN JOSÉ",
-        "municipio": "TUCUPITA",
-        "description": "Indicadores educativos en la parroquia San José",
-        "format": "pdf",
-        "url": "https://example.com/reports/educacion-san-jose.pdf"
-    },
-    {
-        "title": "Salud en Imataca",
-        "parroquia": "IMATACA",
-        "municipio": "CASACOIMA",
-        "description": "Datos de salud en la parroquia Imataca",
-        "format": "csv",
-        "url": "https://example.com/reports/salud-imataca.csv"
-    },
-    {
-        "title": "Economía en Virgen del Valle",
-        "parroquia": "VIRGEN DEL VALLE",
-        "municipio": "TUCUPITA",
-        "description": "Indicadores económicos en la parroquia Virgen del Valle",
-        "format": "xls",
-        "url": "https://example.com/reports/economia-virgen-valle.xls"
-    },
-    {
-        "title": "Población en Almirante Luis Brión",
-        "parroquia": "ALMIRANTE LUIS BRIÓN",
-        "municipio": "ANTONIO DIAZ",
-        "description": "Distribución poblacional en la parroquia Almirante Luis Brión",
-        "format": "pdf",
-        "url": "https://example.com/reports/poblacion-almirante-brion.pdf"
-    },
-    {
-        "title": "Vivienda en Cinco de Julio",
-        "parroquia": "CINCO DE JULIO",
-        "municipio": "CASACOIMA",
-        "description": "Indicadores de vivienda en la parroquia Cinco de Julio",
-        "format": "xls",
-        "url": "https://example.com/reports/vivienda-cinco-julio.xls"
-    }
-];
+// const parroquiaData = [
+//     {
+//         "title": "Empleo en Curiapo",
+//         "parroquia": "CURIAPO",
+//         "municipio": "ANTONIO DIAZ",
+//         "description": "Estadísticas de empleo en la parroquia Curiapo",
+//         "format": "xls",
+//         "url": "https://example.com/reports/empleo-curiapo.xls"
+//     },
+//     {
+//         "title": "Educación en San José",
+//         "parroquia": "SAN JOSÉ",
+//         "municipio": "TUCUPITA",
+//         "description": "Indicadores educativos en la parroquia San José",
+//         "format": "pdf",
+//         "url": "https://example.com/reports/educacion-san-jose.pdf"
+//     },
+//     {
+//         "title": "Salud en Imataca",
+//         "parroquia": "IMATACA",
+//         "municipio": "CASACOIMA",
+//         "description": "Datos de salud en la parroquia Imataca",
+//         "format": "csv",
+//         "url": "https://example.com/reports/salud-imataca.csv"
+//     },
+//     {
+//         "title": "Economía en Virgen del Valle",
+//         "parroquia": "VIRGEN DEL VALLE",
+//         "municipio": "TUCUPITA",
+//         "description": "Indicadores económicos en la parroquia Virgen del Valle",
+//         "format": "xls",
+//         "url": "https://example.com/reports/economia-virgen-valle.xls"
+//     },
+//     {
+//         "title": "Población en Almirante Luis Brión",
+//         "parroquia": "ALMIRANTE LUIS BRIÓN",
+//         "municipio": "ANTONIO DIAZ",
+//         "description": "Distribución poblacional en la parroquia Almirante Luis Brión",
+//         "format": "pdf",
+//         "url": "https://example.com/reports/poblacion-almirante-brion.pdf"
+//     },
+//     {
+//         "title": "Vivienda en Cinco de Julio",
+//         "parroquia": "CINCO DE JULIO",
+//         "municipio": "CASACOIMA",
+//         "description": "Indicadores de vivienda en la parroquia Cinco de Julio",
+//         "format": "xls",
+//         "url": "https://example.com/reports/vivienda-cinco-julio.xls"
+//     }
+// ];
 
 // Datos de parroquias en formato JSON
-const parroquiasData = {
-    "dpt": [
-        {
-            "codigo": 100100,
-            "nombre": "ANTONIO DÍAZ"
-        },
-        {
-            "codigo": 100101,
-            "nombre": "CURIAPO"
-        },
-        {
-            "codigo": 100102,
-            "nombre": "ALMIRANTE LUIS BRIÓN"
-        },
-        {
-            "codigo": 100103,
-            "nombre": "FRANCISCO ANICETOT LUGO"
-        },
-        {
-            "codigo": 100104,
-            "nombre": "MANUEL RENAUD"
-        },
-        {
-            "codigo": 100105,
-            "nombre": "PADRE BARAL"
-        },
-        {
-            "codigo": 100106,
-            "nombre": "SANTOS DE ABELGAS"
-        },
-        {
-            "codigo": 100200,
-            "nombre": "CASACOIMA"
-        },
-        {
-            "codigo": 100201,
-            "nombre": "IMATACA"
-        },
-        {
-            "codigo": 100202,
-            "nombre": "CINCO DE JULIO"
-        },
-        {
-            "codigo": 100203,
-            "nombre": "JUAN BAUTISTA ARISMENDI"
-        },
-        {
-            "codigo": 100204,
-            "nombre": "MANUEL PIAR"
-        },
-        {
-            "codigo": 100205,
-            "nombre": "ROMULO GALLEGOS"
-        },
-        {
-            "codigo": 100300,
-            "nombre": "PEDERNALES"
-        },
-        {
-            "codigo": 100400,
-            "nombre": "TUCUPITA"
-        },
-        {
-            "codigo": 100401,
-            "nombre": "SAN JOSÉ"
-        },
-        {
-            "codigo": 100402,
-            "nombre": "JOSE VIDAL MARCANO"
-        },
-        {
-            "codigo": 100403,
-            "nombre": "JUAN MILLAN"
-        },
-        {
-            "codigo": 100404,
-            "nombre": "LEONARDO RUIZ PINEDA"
-        },
-        {
-            "codigo": 100405,
-            "nombre": "MARISCAL ANTONIO JOSÉ DE SUCRE"
-        },
-        {
-            "codigo": 100406,
-            "nombre": "MONSEÑOR ARGIMIRO GARCÍA"
-        },
-        {
-            "codigo": 100407,
-            "nombre": "SAN RAFAEL"
-        },
-        {
-            "codigo": 100408,
-            "nombre": "VIRGEN DEL VALLE"
-        }
-    ]
-};
+
+// const parroquiasData = {
+//     "dpt": [
+//         {
+//             "codigo": 100100,
+//             "nombre": "ANTONIO DÍAZ"
+//         },
+//         {
+//             "codigo": 100101,
+//             "nombre": "CURIAPO"
+//         },
+//         {
+//             "codigo": 100102,
+//             "nombre": "ALMIRANTE LUIS BRIÓN"
+//         },
+//         {
+//             "codigo": 100103,
+//             "nombre": "FRANCISCO ANICETOT LUGO"
+//         },
+//         {
+//             "codigo": 100104,
+//             "nombre": "MANUEL RENAUD"
+//         },
+//         {
+//             "codigo": 100105,
+//             "nombre": "PADRE BARAL"
+//         },
+//         {
+//             "codigo": 100106,
+//             "nombre": "SANTOS DE ABELGAS"
+//         },
+//         {
+//             "codigo": 100200,
+//             "nombre": "CASACOIMA"
+//         },
+//         {
+//             "codigo": 100201,
+//             "nombre": "IMATACA"
+//         },
+//         {
+//             "codigo": 100202,
+//             "nombre": "CINCO DE JULIO"
+//         },
+//         {
+//             "codigo": 100203,
+//             "nombre": "JUAN BAUTISTA ARISMENDI"
+//         },
+//         {
+//             "codigo": 100204,
+//             "nombre": "MANUEL PIAR"
+//         },
+//         {
+//             "codigo": 100205,
+//             "nombre": "ROMULO GALLEGOS"
+//         },
+//         {
+//             "codigo": 100300,
+//             "nombre": "PEDERNALES"
+//         },
+//         {
+//             "codigo": 100400,
+//             "nombre": "TUCUPITA"
+//         },
+//         {
+//             "codigo": 100401,
+//             "nombre": "SAN JOSÉ"
+//         },
+//         {
+//             "codigo": 100402,
+//             "nombre": "JOSE VIDAL MARCANO"
+//         },
+//         {
+//             "codigo": 100403,
+//             "nombre": "JUAN MILLAN"
+//         },
+//         {
+//             "codigo": 100404,
+//             "nombre": "LEONARDO RUIZ PINEDA"
+//         },
+//         {
+//             "codigo": 100405,
+//             "nombre": "MARISCAL ANTONIO JOSÉ DE SUCRE"
+//         },
+//         {
+//             "codigo": 100406,
+//             "nombre": "MONSEÑOR ARGIMIRO GARCÍA"
+//         },
+//         {
+//             "codigo": 100407,
+//             "nombre": "SAN RAFAEL"
+//         },
+//         {
+//             "codigo": 100408,
+//             "nombre": "VIRGEN DEL VALLE"
+//         }
+//     ]
+// };
+const parroquiaData= await traerDatos();
+
 
 // Variables para paginación de cada sección
 const paginationConfig = {
@@ -373,10 +375,7 @@ function showSection(sectionName) {
     } else if (sectionName === 'municipio') {
         renderTable('municipio');
     } else if (sectionName === 'parroquia') {
-        // Solo cargar las opciones de parroquia una vez
-        if (parroquiaFilter.options.length <= 1) {
-            loadParroquiasOptions();
-        }
+        
         renderTable('parroquia');
     }
     
@@ -384,22 +383,12 @@ function showSection(sectionName) {
     mobileMenu.classList.add('hidden');
 }
 
-// Función para cargar las opciones de parroquias en el select
-function loadParroquiasOptions() {
-    parroquiasData.dpt.forEach(parroquia => {
-        // Solo agregar las parroquias (las que tienen código de 6 dígitos)
-        if (parroquia.codigo.toString().length === 6) {
-            const option = document.createElement('option');
-            option.value = parroquia.nombre;
-            option.textContent = parroquia.nombre;
-            parroquiaFilter.appendChild(option);
-        }
-    });
-}
+
 
 // Función para renderizar la tabla con los datos
 function renderTable(section) {
     const config = paginationConfig[section];
+    
     
     // Calcular índices para la paginación
     const startIndex = (config.currentPage - 1) * config.itemsPerPage;
@@ -423,8 +412,19 @@ function renderTable(section) {
             case 'pdf':
                 formatIcon = '<i class="fas fa-file-pdf text-red-600"></i>';
                 break;
-            case 'csv':
-                formatIcon = '<i class="fas fa-file-csv text-blue-600"></i>';
+            case 'ppt':
+            case 'pptx':
+                formatIcon = '<i class="fas fa-file-powerpoint text-orange-600"></i>';
+                break;
+            case "jpg":
+            case "jpeg":    
+            case "png":
+                formatIcon = '<i class="fas fa-file-image text-blue-600"></i>';
+                break;  
+            case "video":
+            case "mp4":
+            case "mov":
+                formatIcon = '<i class="fas fa-file-video text-purple-600"></i>';
                 break;
             default:
                 formatIcon = '<i class="fas fa-file text-gray-600"></i>';
@@ -436,7 +436,7 @@ function renderTable(section) {
             
             rowContent = `
                 <td data-label="Título">${item.title}</td>
-                <td data-label="Descripción">${item.description}</td>
+                <td data-label="Descripción">${item.descripcion}</td>
                 <td data-label="Formato">
                     <span class="inline-flex items-center">
                         ${formatIcon}
@@ -444,7 +444,7 @@ function renderTable(section) {
                     </span>
                 </td>
                 <td data-label="Acción">
-                    <a href="${item.url}" class="download-btn inline-flex items-center" download>
+                    <a href="${item.url}" class="download-btn inline-flex items-center"  target="_blank" download>
                         <i class="fas fa-download mr-2"></i>
                         Descargar
                     </a>
@@ -471,8 +471,7 @@ function renderTable(section) {
         } else if (section === 'parroquia') {
             rowContent = `
                 <td data-label="Título">${item.title}</td>
-                <td data-label="Parroquia">${item.parroquia}</td>
-                <td data-label="Municipio">${item.municipio}</td>
+                <td data-label="Parroquia">${item.cod_dpt}</td>
                 <td data-label="Descripción">${item.description}</td>
                 <td data-label="Formato">
                     <span class="inline-flex items-center">
@@ -481,7 +480,7 @@ function renderTable(section) {
                     </span>
                 </td>
                 <td data-label="Acción">
-                    <a href="${item.url}" class="download-btn inline-flex items-center" download>
+                    <a href="${item.url}" class="download-btn inline-flex items-center"  target="_blank" download>
                         <i class="fas fa-download mr-2"></i>
                         Descargar
                     </a>

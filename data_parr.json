@@ -3,7 +3,7 @@
     "cod_dpt": "IMATACA",
     "cod_publicacion": 1,
     "title": "CROQUIS DE LA PARROQUIA IMATACA",
-    "descripcion": "CROQUIS DE LA PARROQUIA IMATACA",
+    "description": "CROQUIS DE LA PARROQUIA IMATACA",
     "format": "pptx",
     "url": "https://docs.google.com/presentation/d/1DyJw6aLPsh43NhmpAjXi4pmQON1uABjd/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
   },
@@ -11,7 +11,7 @@
     "cod_dpt": "JOSE VIDAL MARCANO",
     "cod_publicacion": 2,
     "title": "CROQUIS COMUNIDADES JOSE VIDAL MARCANO",
-    "descripcion": "COMUNIDADES JOSE VIDAL MARCANO",
+    "description": "COMUNIDADES JOSE VIDAL MARCANO",
     "format": "pptx",
     "url": "https://docs.google.com/presentation/d/1JjQsxPLEkrQBHN1klcI-p7idTpjXRtdl/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
   },
@@ -19,7 +19,7 @@
     "cod_dpt": "JUAN BAUTISTA ARISMENDI",
     "cod_publicacion": 3,
     "title": "CROQUIS PARROQUIA JUAN BAUTISTA ARISMENDI",
-    "descripcion": "CROQUIS PARROQUIA JUAN BAUTISTA ARISMENDI",
+    "description": "CROQUIS PARROQUIA JUAN BAUTISTA ARISMENDI",
     "format": "pptx",
     "url": "https://docs.google.com/presentation/d/1MQHoehKn2nj1m2zwv25PrnwBlefMsXKP/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
   },
@@ -27,7 +27,7 @@
     "cod_dpt": "JUAN MILLAN",
     "cod_publicacion": 4,
     "title": "CROQUIS DE LAS COMUNIDADES JUAN MILLAN",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES JUAN MILLAN",
+    "description": "CROQUIS DE LAS COMUNIDADES JUAN MILLAN",
     "format": "pptx",
     "url": "https://docs.google.com/presentation/d/1YvXFCsFlMzV7i_M3mc-EfqgzpW7xkeRq/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
   },
@@ -35,7 +35,7 @@
     "cod_dpt": "LEONARDO RUIZ PINEDA",
     "cod_publicacion": 5,
     "title": "CROQUIS DE LAS COMUNIDADES DE LEONARDO RUIZ PINEDA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES DE LEONARDO RUIZ PINEDA",
+    "description": "CROQUIS DE LAS COMUNIDADES DE LEONARDO RUIZ PINEDA",
     "format": "pptx",
     "url": "https://docs.google.com/presentation/d/15qlfC3l0JVK5bcARaO77feAvqpvBFUNW/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
   },
@@ -43,7 +43,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 6,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BARCELONA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BARCELONA",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/19X1dH1ABTt_G61WhrC8CLf80HSki2M-8/view?usp=drive_link"
   },
@@ -51,7 +51,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 7,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BELLA VISTA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BELLA VISTA",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1EFyP6OZ2wgYUa0UC5wUpwqdUBf3Zd4tQ/view?usp=drive_link"
   },
@@ -59,7 +59,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 8,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BOCA CAIMAN",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BOCA CAIMAN",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1Bcn1mHTy_w9cn7UOdDqTk17psqsUQF3L/view?usp=drive_link"
   },
@@ -67,7 +67,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 9,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BOCA DE MANAO",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BOCA DE MANAO",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1HJiu2fS5hXcI3mKzDegoEWoYLEKSgh7P/view?usp=drive_link"
   },
@@ -75,7 +75,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 10,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BOCA DE PALOMA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BOCA DE PALOMA",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1nsuE4F5KW3WccKFjv8XnvWclgn7c_KjL/view?usp=drive_link"
   },
@@ -83,7 +83,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 11,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BOCA FRESCA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR BOCA FRESCA",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1tZ_BeOnp_6IJca2L2kzjuQ43z9RciM2z/view?usp=drive_link"
   },
@@ -91,7 +91,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 12,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR CARAPAL",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA SECTOR CARAPAL",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1-HWsvok9UhWjM3FFRaUdool-B4WyXd1V/view?usp=drive_link"
   },
@@ -99,7 +99,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 13,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA EL PAJUI",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA EL PAJUI",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1XaxiQ_Hv3Wov-vqgoe1ILK-jJtX50KsO/view?usp=drive_link"
   },
@@ -107,7 +107,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 14,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA EL TORITO",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA EL TORITO",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1dSPRunRqMz5u7EAnBl9L7g_kKh34Y5Ir/view?usp=drive_link"
   },
@@ -115,7 +115,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 15,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA EL TORO",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA EL TORO",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1zEJCTeeyrNeu2_um-f8-vkq4RuScdj6c/view?usp=drive_link"
   },
@@ -123,7 +123,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 16,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA LA HORQUETA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA LA HORQUETA",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/11O2LGlDFo8KsZB7b3ZY8tBS031pq5t87/view?usp=drive_link"
   },
@@ -131,7 +131,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 17,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA LA ISLA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA LA ISLA",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1tj_C1k1MWwCK2VKMPpGNcXyQb7YRx7kz/view?usp=drive_link"
   },
@@ -139,7 +139,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 18,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA MANOA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA MANOA",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1w3GdUJd-iZ5NxXNcLO6TDjq4pdE6GtmE/view?usp=drive_link"
   },
@@ -147,7 +147,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 19,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA OROCOIMA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA OROCOIMA",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1R6ECU9jBVajCZjb13Dy1wMcvX4dBZ_H2/view?usp=drive_link"
   },
@@ -155,7 +155,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 20,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA OROCOIMA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA OROCOIMA",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1R6ECU9jBVajCZjb13Dy1wMcvX4dBZ_H2/view?usp=drive_link"
   },
@@ -163,7 +163,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 21,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA PALOMA EL TORO",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA PALOMA EL TORO",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1mCGpu1uUK6hDl3F4Vf6tcmuFVCaR9ELe/view?usp=drive_link"
   },
@@ -171,7 +171,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 22,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA SACUPANA DEL CERRO",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA SACUPANA DEL CERRO",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1tJd-_RyJ6O75psWE5sK0k1b6NNvgkkit/view?usp=drive_link"
   },
@@ -179,7 +179,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 23,
     "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA VUELTA DE LA CEIBA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA VUELTA DE LA CEIBA",
     "format": "pdf",
     "url": "https://drive.google.com/file/d/1ShpWjiWy4Mph1Rirb3ydIEy0V0WXWiHo/view?usp=drive_link"
   },
@@ -187,7 +187,7 @@
     "cod_dpt": "MANUEL PIAR",
     "cod_publicacion": 24,
     "title": "CROQUIS DE LA  PARROQUIA MANUEL PIAR",
-    "descripcion": "CROQUIS DE LA  PARROQUIA MANUEL PIAR",
+    "description": "CROQUIS DE LA  PARROQUIA MANUEL PIAR",
     "format": "pptx",
     "url": "https://docs.google.com/presentation/d/14sHbuCl46eDwJIZY4HJ8JWZsSDMLz484/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
   },
@@ -195,7 +195,7 @@
     "cod_dpt": "ALMIRANTE LUIS BRI�N",
     "cod_publicacion": 25,
     "title": "CROQUIS MONSE�OR ARGIMIRO GARC�A",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO",
     "format": "pptx",
     "url": "https://docs.google.com/presentation/d/1jqEwmCdC8FvGUHEw--_U4o6hi9m1kZy9/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
   },
@@ -203,7 +203,7 @@
     "cod_dpt": "ROMULO GALLEGOS",
     "cod_publicacion": 26,
     "title": "CROQUIS DE LA  PARROQUIA ROMULO GALLEGOS",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO",
     "format": "pptx",
     "url": "https://docs.google.com/presentation/d/1fiPEoRiuSppTfjiBdvjgUeq0D6Jph2CW/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
   },
@@ -211,7 +211,7 @@
     "cod_dpt": "SAN RAFAEL",
     "cod_publicacion": 27,
     "title": "CROQUIS COMUNIDADES SAN RAFAEL",
-    "descripcion": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO",
     "format": "pptx",
     "url": "https://docs.google.com/presentation/d/1v354uD4Wq5tUS3q32K-7Tot1dqModJbb/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
   }
