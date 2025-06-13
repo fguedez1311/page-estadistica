@@ -434,40 +434,40 @@ function renderTable(section) {
         let rowContent = '';
         if (section === 'delta') {
             
-            rowContent = `
-                <td data-label="Título">${item.title}</td>
-                <td data-label="Descripción">${item.descripcion}</td>
-                <td data-label="Formato">
-                    <span class="inline-flex items-center">
-                        ${formatIcon}
-                        <span class="ml-2">${item.format.toUpperCase()}</span>
-                    </span>
-                </td>
-                <td data-label="Acción">
-                    <a href="${item.url}" class="download-btn inline-flex items-center"  target="_blank" download>
-                        <i class="fas fa-download mr-2"></i>
-                        Descargar
-                    </a>
-                </td>
-            `;
+            // rowContent = `
+            //     <td data-label="Título">${item.title}</td>
+            //     <td data-label="Descripción">${item.descripcion}</td>
+            //     <td data-label="Formato">
+            //         <span class="inline-flex items-center">
+            //             ${formatIcon}
+            //             <span class="ml-2">${item.format.toUpperCase()}</span>
+            //         </span>
+            //     </td>
+            //     <td data-label="Acción">
+            //         <a href="${item.url}" class="download-btn inline-flex items-center"  target="_blank" download>
+            //             <i class="fas fa-download mr-2"></i>
+            //             Descargar
+            //         </a>
+            //     </td>
+            // `;
         } else if (section === 'municipio') {
-            rowContent = `
-                <td data-label="Título">${item.title}</td>
-                <td data-label="Municipio">${item.municipio}</td>
-                <td data-label="Descripción">${item.description}</td>
-                <td data-label="Formato">
-                    <span class="inline-flex items-center">
-                        ${formatIcon}
-                        <span class="ml-2">${item.format.toUpperCase()}</span>
-                    </span>
-                </td>
-                <td data-label="Acción">
-                    <a href="${item.url}" class="download-btn inline-flex items-center" download>
-                        <i class="fas fa-download mr-2"></i>
-                        Descargar
-                    </a>
-                </td>
-            `;
+            // rowContent = `
+            //     <td data-label="Título">${item.title}</td>
+            //     <td data-label="Municipio">${item.municipio}</td>
+            //     <td data-label="Descripción">${item.description}</td>
+            //     <td data-label="Formato">
+            //         <span class="inline-flex items-center">
+            //             ${formatIcon}
+            //             <span class="ml-2">${item.format.toUpperCase()}</span>
+            //         </span>
+            //     </td>
+            //     <td data-label="Acción">
+            //         <a href="${item.url}" class="download-btn inline-flex items-center" download>
+            //             <i class="fas fa-download mr-2"></i>
+            //             Descargar
+            //         </a>
+            //     </td>
+            // `;
         } else if (section === 'parroquia') {
             rowContent = `
                 <td data-label="Título">${item.title}</td>
@@ -559,16 +559,17 @@ function filterMunicipioData() {
 // Función para filtrar los datos de Estadísticas por Parroquia
 function filterParroquiaData() {
     const searchTerm = parroquiaSearch.value.toLowerCase();
-    const formatValue = parroquiaFormatFilter.value;
-    const parroquiaValue = parroquiaFilter.value;
+    // const formatValue = parroquiaFormatFilter.value;
+    // const parroquiaValue = parroquiaFilter.value;
     
     paginationConfig.parroquia.filteredData = parroquiaData.filter(item => {
         const matchesSearch = item.title.toLowerCase().includes(searchTerm) || 
-                                item.description.toLowerCase().includes(searchTerm);
-        const matchesFormat = formatValue === 'all' || item.format === formatValue;
-        const matchesParroquia = parroquiaValue === 'all' || item.parroquia === parroquiaValue;
+                                item.description.toLowerCase().includes(searchTerm) ||  
+                                item.cod_dpt.toLowerCase().includes(searchTerm);
         
-        return matchesSearch && matchesFormat && matchesParroquia;
+
+        
+        return matchesSearch 
     });
     
     // Resetear a la primera página
@@ -702,17 +703,16 @@ mobileNavLinks.nomenclador.addEventListener('click', (e) => {
 });
 
 // Filtros y búsqueda para Estadísticas Delta
-searchInput.addEventListener('input', filterDeltaData);
-formatFilter.addEventListener('change', filterDeltaData);
+// searchInput.addEventListener('input', filterDeltaData);
+// formatFilter.addEventListener('change', filterDeltaData);
 
 // Filtros y búsqueda para Estadísticas por Municipio
-municipioFilter.addEventListener('change', filterMunicipioData);
-municipioFormatFilter.addEventListener('change', filterMunicipioData);
-municipioSearch.addEventListener('input', filterMunicipioData);
+// municipioFilter.addEventListener('change', filterMunicipioData);
+// municipioFormatFilter.addEventListener('change', filterMunicipioData);
+// municipioSearch.addEventListener('input', filterMunicipioData);
 
 // Filtros y búsqueda para Estadísticas por Parroquia
-parroquiaFilter.addEventListener('change', filterParroquiaData);
-parroquiaFormatFilter.addEventListener('change', filterParroquiaData);
+
 parroquiaSearch.addEventListener('input', filterParroquiaData);
 
 // Botón para buscar comunidades
