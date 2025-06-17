@@ -214,5 +214,293 @@
     "description": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO",
     "format": "pptx",
     "url": "https://docs.google.com/presentation/d/1v354uD4Wq5tUS3q32K-7Tot1dqModJbb/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
+  },
+  {
+    "cod_dpt": "SANTOS DE ABELGAS",
+    "cod_publicacion": 28,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO BOCA DE ARAGUAO",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1kiGrAKpKFzvMIas5XiA-nwVBZ6ZCEX25/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "SANTOS DE ABELGAS",
+    "cod_publicacion": 29,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO POTRERITO",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/179KUodqofy8urV712zsOityyUree352T/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "SANTOS DE ABELGAS",
+    "cod_publicacion": 30,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO RAMANCE DE SACUPANA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1IynOfRXoLoEg__G6RrzANlSGVftxjXaK/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "SANTOS DE ABELGAS",
+    "cod_publicacion": 31,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO JANAMANA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1ojy5jD-Wlgcj1OvN_S8soiIRtKX15n9Y/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "SANTOS DE ABELGAS",
+    "cod_publicacion": 32,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO BOCA DE SACUPANA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1qGHkjsLvHRDloSnfztUOkQaoO2s61akh/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "SANTOS DE ABELGAS",
+    "cod_publicacion": 33,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO CUBERINA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1BopfCadXeFKi4oQrPdBS-G4PUZebq55q/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "SANTOS DE ABELGAS",
+    "cod_publicacion": 34,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA Y CENTRO POBLADO ISLA EL NORTE",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1Ae_hTO6TSZNgDwwjQNxNcNC7vD5Ca-ZU/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 35,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA DAUWARUBAKA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1POB3lReTP17OkPQXqb_rvtL-MdLOYpPK/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 36,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA KAMAWI",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1JROglhalrOs6rdsM9nPinHF3VPaf-p3e/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 37,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA DAUDAJANA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1BF07ztO0hOxsFOKFC0g-YS-q2iCbhgRc/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 38,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA JEBUANA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1XTKlGG-IyD4qMb2Wu8neENQ_m676IVRI/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 39,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA JOKABANOKO",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1xQkLEqJkJQIL8RIwmr3feu59I4ycXoNV/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 40,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA EKUJANA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/189Gm2uiferZC8Rvgu1XTDHiWxZOTjCf-/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 41,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA JAJERUINA III",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1g0SyNUpDb0K0DDeFeyc8Fexa_ZPAE54m/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 42,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA JOROBADO",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1w207E68RPTHJFnmPjeFWzB9HR7_MUqKm/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 43,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA MEREJINA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1eqzS58Kfsl6FuTJa2m1MYnQmxD0bznrs/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 44,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA MORAJANA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1UuSveQmH4NlmuYu1b3FbcfewtyXgykIS/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 45,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA ARUWAJABANOKO",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1Ckryj7J5iy-G_Cp-RMrZC3epGAgt3qXQ/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 46,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA JUANACEBE",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1YxjbeB3zPVm9EkcSuT0VLrL_J8bt9WY8/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 47,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA KARIBASA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1_sljahFLvHw8WP-qAiAIOgA_0uYeJbmZ/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 48,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA WABIAJEBERENOKO",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1zw2F-3h1ZcCXibLp7HESZFKTdTBUJ9a-/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 49,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA IKARUINA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1NPWiQxA6vMXCnz4-jLk4fh6foIV9W0-W/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 50,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA BUBAKA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1P_XEjN-DIW3TgXhsV4dWpWwgqOb71aIe/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 51,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA JOTAJANA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1zhuDQZdUFOiaKz05Wl_7YgidscOihjfp/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 52,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA COCAL",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/17uLrMoai1JfE3wtPdbro9FXxqn8vykxD/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 53,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA NABAWAJA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1WGSK11ChwV8dYi2AQaqSyyxQyeCdfEcW/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 54,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA CAIMAN",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1MuvYx7ynILsrmqJ9IrG6bWCG_AtLtF82/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 55,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA WARAINA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1k4TXvwvIWZdXYuKsBBGRxbEq80r-OFPq/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 56,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA AJOTEJANA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/191jOus1mjI8BgBN3vlXXntSSt9nLh6dK/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 57,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA DAKOJI",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/12sTb4tkP6yxjXf3xcW2ARaSgKDf-4uDH/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 58,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA ASIJANA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1FDXIgzMiRqALHugglym6f7ZgU2rWnnaD/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 59,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA JAJERUINA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1MSrxQFlS_vmDiM842NuG9zYwv9ndxv2E/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 60,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA BAKAMU",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1Zix2g8A1YoVaIFIw90NRwHeZnW0qXWdF/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 61,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA GUAYABOROINA DE GUAYO",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1ewO6R8bs-Cag9OTCb5Ue9hh9lFLW9ky-/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 62,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA WANEKO",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1IFU6MNtrIOM0VTcV3Fdn84BFDqJ20TCF/view?usp=drive_link"
+  },
+  {
+    "cod_dpt": "PADRE BARAL",
+    "cod_publicacion": 63,
+    "title": "CROQUIS DE LAS COMUNIDADES INDIGENA",
+    "description": "CROQUIS DE LAS COMUNIDADES INDIGENA AIMURUINA",
+    "format": "pdf",
+    "url": "https://drive.google.com/file/d/1PzvKm47faiNB3g73QdKmLGO8Uqg6KMr9/view?usp=drive_link"
   }
 ]
