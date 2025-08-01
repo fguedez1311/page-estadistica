@@ -1376,16 +1376,8 @@
         "url":"https:\/\/docs.google.com\/presentation\/d\/1KXq6Ft8_zjFtJFWTyQJ9En7sti9Me7FB\/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
     },
     {
-        "cod_dpt":"MONSE\u00d1OR ARGIMIRO GARC\u00cdA",
-        "cod_publicacion":173,
-        "title":"Microareas Urbanas Parroquia Argimiro Garc\u00eda",
-        "description":"Microarea Urbana Censo 2011",
-        "format":"pptx",
-        "url":"https:\/\/docs.google.com\/presentation\/d\/1BXo1Lf48G3eZvivzMTuU4A8GP4mwpU3W\/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
-    },
-    {
         "cod_dpt":"LEONARDO RUIZ PINEDA",
-        "cod_publicacion":174,
+        "cod_publicacion":173,
         "title":"Microareas Urbanas Parroquia Leonardo Ruiz Pineda",
         "description":"Microarea Urbana Censo 2011",
         "format":"pptx",
@@ -1393,7 +1385,7 @@
     },
     {
         "cod_dpt":"MARISCAL ANTONIO JOS\u00c9 DE SUCRE",
-        "cod_publicacion":175,
+        "cod_publicacion":174,
         "title":"Microareas Urbanas Parroquia Antonio Jos\u00e9 de Sucre",
         "description":"Microarea Urbana Censo 2011",
         "format":"pptx",
@@ -1401,7 +1393,7 @@
     },
     {
         "cod_dpt":"SAN RAFAEL",
-        "cod_publicacion":176,
+        "cod_publicacion":175,
         "title":"Microareas Urbanas Parroquia San Rafael",
         "description":"Microarea Urbana Censo 2011",
         "format":"pptx",
@@ -1409,7 +1401,7 @@
     },
     {
         "cod_dpt":"SAN JOS\u00c9",
-        "cod_publicacion":177,
+        "cod_publicacion":176,
         "title":"Microareas Urbanas Parroquia San Jos\u00e9",
         "description":"Microarea Urbana Censo 2011",
         "format":"pptx",
@@ -1417,7 +1409,7 @@
     },
     {
         "cod_dpt":"PARROQUIA PEDERNALES",
-        "cod_publicacion":178,
+        "cod_publicacion":177,
         "title":"Microareas Urbanas Parroquia Pedernales",
         "description":"Microarea Urbana Censo 2011",
         "format":"pptx",
@@ -1425,10 +1417,26 @@
     },
     {
         "cod_dpt":"PARROQIUA LUIS BELTRAN PIETRO FIGUEROA",
-        "cod_publicacion":179,
+        "cod_publicacion":178,
         "title":"Microareas Urbanas Parroquia Luis Beltran Prieto Figueroa Capure",
         "description":"Microarea Urbana Censo 2011",
         "format":"pptx",
         "url":"https:\/\/docs.google.com\/presentation\/d\/1oO5sIbje5OzQRle1UGJGjFzbHF1VqJUu\/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
+    },
+    {
+        "cod_dpt":"PARROQUIA PEDERNALES",
+        "cod_publicacion":179,
+        "title":"CROQUIS DE LAS COMUNIDADES INDIGENA ",
+        "description":" CROQUIS DE LAS COMUNIDADES INDIGENA  PARROQUIA PEDERNALES",
+        "format":"pptx",
+        "url":"https:\/\/docs.google.com\/presentation\/d\/15fXv89Yl0uNAGsm06xSx7aYjDCA4fcPl\/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
+    },
+    {
+        "cod_dpt":"PARROQIUA LUIS BELTRAN PIETRO FIGUEROA",
+        "cod_publicacion":180,
+        "title":"CROQUIS DE LAS COMUNIDADES INDIGENA ",
+        "description":" CROQUIS DE LAS COMUNIDADES INDIGENA  PARROQUIA LUIS BELTRAN",
+        "format":"pptx",
+        "url":"https:\/\/docs.google.com\/presentation\/d\/1T8oQVk6AkToRhSfyRNn-Zoc4yJwX3AXK\/edit?usp=drive_link&ouid=105142876406402750370&rtpof=true&sd=true"
     }
 ]
